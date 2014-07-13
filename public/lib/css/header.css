@@ -1,0 +1,41 @@
+﻿.banner{
+	margin:0 auto;
+    width:89%;
+	height:55px;
+	min-width:600px;
+	text-align:left;
+	padding-top:15px;
+}
+
+.login_logo{
+    margin-top: 0px;
+    padding-left: 100px;
+    float: left;
+}
+
+.logo{
+    margin-top: 0px;
+    padding-left: 0px;
+    float: left;
+}
+
+.Web_title{
+    float: left;
+    padding-left: 15px;
+    color:orangered;
+    font-size:45px;
+    font-family:"华文新魏";
+    font-weight: bold;
+    font-weight:normal;
+    text-shadow:1px 1px 0px 0px ;
+    -webkit-text-shadow:1px 1px 0px 0px;
+}
+
+.Web_title:before{
+    /*content:url('../img/ico/cxcy.ico');*/
+}
+
+.search{
+	margin:0 auto;
+	height:30px;
+}

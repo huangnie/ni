@@ -1,0 +1,52 @@
+.bar{
+    float: left;
+    margin:0 auto;
+    width: 100%;
+    height:25px;
+    background: #528CE0;
+}
+.userOperate{
+    float:left;
+    width:80%;
+    height:auto;
+    text-align:right;
+    font-size:16px;
+}
+.userOperate a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.userOperate a:active{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.userOperate a:hover{
+     text-decoration: none;
+     color: red;
+}
+
+.main_page{
+    float: left;
+    margin-top:25px;
+    margin-left: 2%;
+    width:95%;
+min-width:900px;
+    height:465px;
+    text-align:left;
+    background:url('../img/bg/login_bg.jpg');
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+}
+
+.main_page .intro{
+    float: right;
+    margin-top:40px;
+    margin-right: 15%;  
+    font-family:"»ªÎÄÐÂÎº";
+    width:300px;
+    line-height:180%;
+    height:auto;
+    text-align:left;
+}
+

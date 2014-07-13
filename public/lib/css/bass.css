@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Microsoft YaHei";
+}
+/*  常用文本颜色  */
+.t_red{ color:red;	}
+.t_orange{ color:orange; }
+.t_white{  color:white;	}
+.t_r{ text-align: right;}
+
+.h_a{
+	height:auto;
+}
+
+.p_l_5{
+    padding-left: 5px;
+}
+
+/*  常用背景颜色  */
+.bg_red{ background:red;	}
+.bg_orange{  background:orange;	}
+.bg_white{  background:white;	}
+
+/*  边界实线  */
+.b_0{ border:0px;	}
+.bs_red_1{ border: 1px solid red;	}
+.bs_orange_1{  border: 1px solid orange;	}
+.bs_white_1{   border: 1px solid  white;	}
+.bs_orange_1{  border: 1px solid orange;	}
+.bs_d0d0d0_1{  border: 1px solid #d0d0d0;	}
+
+/*  边界虚线  */
+.bd_red_1{ border: 1px dashed red;	}
+.bd_orange_1{  border: 1px dashed orange;	}
+.bd_white_1{   border: 1px dashed  white;	}
+
+/* 常用圆角  */
+.r_t2_2{
+    -webkit-border-top-left-radius: 2px 2px;
+    -webkit-border-top-right-radius:2px 2px;
+    border-top-left-radius:  2px 2px;  /* ie */
+    border-top-right-radius:  2px 2px;  /* ie */
+}
+.r_t2_3{
+    -webkit-border-top-left-radius: 3px 3px;
+    -webkit-border-top-right-radius:3px 3px;
+    border-top-left-radius:  3px 3px;  /* ie */
+    border-top-right-radius: 3px 3px;  /* ie */
+}
+.r_t2_5{
+    -webkit-border-top-left-radius: 5px 5px;
+    -webkit-border-top-right-radius:5px 5px;
+    border-top-left-radius:  5px 5px;  /* ie */
+    border-top-right-radius: 5px 5px;  /* ie */
+}
+
+.r_b2_2{
+	-webkit-border-bottom-left-radius: 2px 2px;
+	-webkit-border-bottom-right-radius: 2px 2px;
+	border-bottom-left-radius:  2px 2px;  /* ie */
+	border-bottom-right-radius: 2px 2px;  /* ie */
+}
+.r_b2_3{
+	-webkit-border-bottom-left-radius: 3px 3px;
+	-webkit-border-bottom-right-radius:3px 3px;
+	border-bottom-left-radius:  3px 3px;  /* ie */
+	border-bottom-right-radius: 3px 3px;  /* ie */
+}
+.r_b2_5{
+	-webkit-border-bottom-left-radius: 5px 5px;
+	-webkit-border-bottom-right-radius:5px 5px;
+	border-bottom-left-radius:  5px 5px;  /* ie */
+	border-bottom-right-radius: 5px 5px;  /* ie */
+}
+
+.r_4c_2{
+	-webkit-border-radius: 2px 2px;
+	border-radius:  2px 2px;  /* ie */
+}
+.r_4c_3{
+	-webkit-border-radius: 3px 3px;
+	border-radius:  3px 3px;  /* ie */
+}
+.r_4c_4{
+	-webkit-border-radius: 4px 4px;
+	border-radius:  4px 4px;  /* ie */
+}
+.r_4c_5{
+    -webkit-border-radius: 5px 5px;
+    border-radius:  5px 5px;  /* ie */
+}
+.r_4c_10{
+    -webkit-border-radius: 10px 10px;
+    border-radius:10px 10px;  /* ie */
+}
+
+.r_ltb_3{
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-top-left-radius:3px;  /* ie */
+    border-bottom-left-radius:3px;  /* ie */
+}
+
+/*   */
+.bd_b_d0d0d0_1{  border-bottom: 1px dashed #d0d0d0;	}
+
+/*  常用透明度  */
+.o_3{ opacity:0.3;}
+.o_5{ opacity:0.5;}
+.o_7{ opacity:0.7;}
+.o_9{ opacity:0.9;}
+
+/* 文本对齐  */
+.t_r{ text-align:right;	}
+
+/* 常用宽度  */
+.w_a{ width:auto;	}
+
+/* 常用外边距  */
+.m_l5{ margin-left:5px;	}
+.m_l90{ margin-left:90px;	}
+.m_t5{ margin-top:5px;	}
+.m_r5{ margin-right:5px;}
+.m_b5{ margin-bottom:5px;}
+
+.p_l_100{ padding-left: 100px; }
+
+/* 无序列表  */
+.li_no_list{ list-style:none;}
+
+/* 块显示 */
+.d_b{ display:block;}
+.show{ display:block;}
+/* 隐藏 */
+.hide{ display:none;height:1px;}
+
+/* 行内显示 */
+.d_b{ display:inline;}
+
+.mouse_to_default{ cursor:default; }
+.mouse_to_pointer{ cursor:pointer;}
+
+/*  */
+.t_d_n{
+	text-decoration:none;
+}
+.t_d_u{
+	text-decoration:underline;
+}
+
+/*按钮  */
+.btn_confirm{
+    cursor:default;
+    font-size:0.8em;
+    outline:medium;
+    border:1px solid white;
+    margin:0px;
+    padding:2px 5px;
+    text-align:center;
+    background:darkgreen;
+    color:#f5f5f5;
+    -webkit-border-radius: 4px 4px;
+    border-radius: 4px 4px;  /* ie */
+    text-decoration:none;
+}
+.btn_confirm:active{
+    transform:scale(0.9,0.9);
+    -webkit-transform:scale(0.9,0.9);
+}
+
+.btn_cancel{
+    display: inline;
+    cursor:default;
+    font-size:0.8em;
+    outline:medium;
+    border:0px solid darkgray;
+    margin:0px;
+    padding:2px 5px;
+    width: auto;
+    text-align:center;
+    background:darkgray;
+    color:#f5f5f5;
+    -webkit-border-radius: 4px 4px;
+    border-radius: 4px 4px;  /* ie */
+    text-decoration:none;
+}
+.btn_cancel:active{
+    transform:scale(0.9,0.9);
+    -webkit-transform:scale(0.9,0.9);
+}
+
+::selection{
+    background-color: #d0d0d0;
+    color: #006699;
+}

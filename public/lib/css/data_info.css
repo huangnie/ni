@@ -1,0 +1,127 @@
+.data_info{
+	float:left;
+	height:auto;
+    min-width:200px;
+	text-align:center;
+    padding-top: 5px;
+}
+
+.data_info ul{
+	float:left;
+    display:block;
+	height:auto;
+    width:100%;
+	padding:0px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    word-wrap: normal;
+    text-align:center;
+	list-style:none;
+}
+
+.data_info ul li{
+    float:left;
+    display:inline;
+    list-style: none;
+    margin-right: 5px;
+    height: auto;
+    white-space: nowrap;
+    box-shadow: 1px;
+    overflow-wrap: normal;
+    word-wrap: normal;
+    padding:0;
+}
+
+.data_info ul li[class=label]{
+    width: 30%;
+    font-style: italic;
+    height: auto;
+	padding-right:3%;
+    text-align:right;
+}
+
+.data_info ul li[class=edit]{
+    width: 50%;
+    height: auto;
+    text-align:left;
+}
+
+.data_info ul li[class=edit] input{
+    padding: 1px;
+    font-size: 11px;
+    height: 16px;
+    width: 100%;
+    /*outline:medium;*/
+    border: 1px solid #166e7c;
+}
+.data_info ul li[class=edit] select{
+    font-size: 10px;
+    /*outline:medium;*/
+    border: 1px solid #166e7c;
+}
+.data_info ul li[class=edit] textarea{
+    padding: 1px;
+    width: 100%;
+    margin: 0;
+    resize: none;
+    /*outline:medium;*/
+    border: 1px solid #166e7c;
+}
+
+.data_info ul li[class=tip]{
+    font-size: 3px;
+    color: #006699;
+    text-align:right;
+}
+
+.data_info ul li[class=space]{
+    width:15%;
+    text-align:right;
+}
+
+.data_info ul li[class=inform]{
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: normal;
+    width: 210px;
+    padding-left: 45px;
+    font-size: 6px;
+    color: red;
+    text-align:left;
+}
+
+.data_info ul li input[type=checkbox]{
+    height: 17px;
+    width: 17px;
+    font-size: 12px;
+    outline:medium;
+    margin-top: 3px;
+    margin-right: 5px;
+    border: 0px solid darkgray;
+}
+
+.data_info ul li[class=edit] input[type=submit]{
+    height: 25px;
+    width: 50px;
+    font-size: 14px;
+    outline:medium;
+    margin-right: 5px;
+    border: 0px solid darkgray;
+}
+
+.data_info ul li[class=edit] input[type=reset]{
+    width: 50px;
+    height: 25px;
+    font-size: 14px;
+    outline:medium;
+    border: 0px solid darkgray;
+}
+
+.data_info  ul li[class=info]{
+    text-align:left;
+}
+
+.show{ display:block;}
+.hide{ display:none;}
+
+
